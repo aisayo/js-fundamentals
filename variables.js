@@ -28,13 +28,35 @@ var word = "testing";
 
 // Example:
 let fluffy = "fluffy";
-fluffy = "not so fluffy";
+let fluffy = "not so fluffy"; // will throw an error
+fluffy = "not so fluffy" // will redefine the value of fluffy
 
 // `let` allows you to declare a variable, then later define it
 
 // Example:
 let username;
 username = "aisayo";
+
+// Let is also block scoped
+
+// Example:
+    var x = 1;
+    if (x === 1){
+        var x = 2;  // same variable!
+        console.log(x);  // 2
+    }
+    
+    console.log(x);  // 2
+
+  
+    let x = 1;
+    if (x === 1){
+        let x = 2;  // different variable!
+        console.log(x);  // 2
+    }
+    let x = 10
+    
+    console.log(x);  // 1
 
 // -----------------------------------------------------------------
 

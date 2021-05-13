@@ -2,7 +2,7 @@
 
 // Functions are the core of JavaScript
 // They are just methods that contain some type of behavior
-// Very similar to methods in Ruby
+// Very similar to methods in Ruby, with some differences
 // To run a function, it must be ‘invoked’
 // Invoking a function involved calling the name of the function with parenthesis afterwards
 
