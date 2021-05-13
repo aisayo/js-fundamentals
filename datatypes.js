@@ -96,4 +96,4 @@ typeof {name: "aysan"}
 // Fun challenge:
 // what will the following return?
 
-typeof typeof 0
+typeof typeof 0 
